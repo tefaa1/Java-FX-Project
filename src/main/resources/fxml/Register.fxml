@@ -28,7 +28,7 @@
             <Insets />
          </opaqueInsets>
       </PasswordField>
-      <Button layoutX="207.0" layoutY="295.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="94.0" styleClass="control" stylesheets="@../css/style.css" text="LogIn" textFill="#f7f6f6">
+      <Button layoutX="245.0" layoutY="289.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="122.0" styleClass="control" stylesheets="@../css/style.css" text="LogIn" textFill="#f7f6f6">
          <font>
             <Font name="Cambria Math" size="18.0" />
          </font>
@@ -36,7 +36,7 @@
             <Cursor fx:constant="HAND" />
          </cursor>
       </Button>
-      <Button layoutX="314.0" layoutY="295.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="94.0" styleClass="control" stylesheets="@../css/style.css" text="SignUp" textFill="#faf6f6">
+      <Button layoutX="484.0" layoutY="14.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="94.0" styleClass="control" stylesheets="@../css/style.css" text="SignUp" textFill="#faf6f6">
          <font>
             <Font name="Bodoni MT" size="18.0" />
          </font>
@@ -64,7 +64,7 @@
             <Image url="@../photos/all.jpeg" />
          </image>
       </ImageView>
-      <Button blendMode="DARKEN" layoutX="225.0" layoutY="340.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="162.0" text="Forgot Password" textFill="#0d0d0d">
+      <Button blendMode="DARKEN" layoutX="227.0" layoutY="335.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="158.0" text="Forgot Password" textFill="#0d0d0d">
          <font>
             <Font name="Britannic Bold" size="18.0" />
          </font>
@@ -72,7 +72,7 @@
             <Cursor fx:constant="HAND" />
          </cursor>
       </Button>
-      <ImageView fitHeight="40.0" fitWidth="50.0" layoutX="419.0" layoutY="293.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="40.0" fitWidth="50.0" layoutX="371.0" layoutY="287.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../photos/loading.gif" />
          </image>
