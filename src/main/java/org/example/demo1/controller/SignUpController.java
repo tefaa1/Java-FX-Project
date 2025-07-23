@@ -16,7 +16,8 @@ import java.io.IOException;
 import java.net.URL;
 import java.util.ResourceBundle;
 
-public class LoginController implements Initializable {
+public class SignUpController implements Initializable {
+
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
         Loading.setVisible(false);
@@ -26,23 +27,23 @@ public class LoginController implements Initializable {
     private ImageView Loading;
 
     @FXML
-    private AnchorPane LoginPage;
+    private AnchorPane SignUpPage;
 
     @FXML
-    void GoToSignUp(ActionEvent event) throws IOException {
-        LoginPage.getScene().getWindow().hide();
+    void GoToLogin(ActionEvent event) throws IOException {
 
-        Parent root = FXMLLoader.load(getClass().getResource("/fxml/SignUp.fxml"));
-        Scene scene = new Scene(root,600,500);
+        SignUpPage.getScene().getWindow().hide();
+        Parent parent = FXMLLoader.load(getClass().getResource("/fxml/LogIn.fxml"));
+        Scene scene = new Scene(parent,600,500);
         Stage stage = new Stage();
         stage.setScene(scene);
         stage.setResizable(false);
         stage.show();
-
     }
 
+
     @FXML
-    void LoginAction(ActionEvent event) {
+    void SignUp(ActionEvent event) {
         Loading.setVisible(true);
         PauseTransition pauseTransition = new PauseTransition();
         pauseTransition.setDuration(Duration.seconds(3));
