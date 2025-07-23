@@ -11,6 +11,7 @@ module org.example.demo1 {
     requires eu.hansolo.tilesfx;
     requires com.almasb.fxgl.all;
 
-    opens org.example.demo1 to javafx.fxml;
+    opens org.example.demo1.controller to javafx.fxml;
+
     exports org.example.demo1;
 }
